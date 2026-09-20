@@ -93,8 +93,10 @@ class Remover{
       this.nextStep();
       this.travelDistance++;
       if(!this.finishedTask && current.isRemovable()){
-        if(this.canRemove)this.current.setOccupiedStatus(false);
-        this.grid.decrementOccupiedCount();
+        if(this.canRemove){
+          this.current.setOccupiedStatus(false);
+          this.grid.decrementOccupiedCount();
+        }
         this.finishedTask = true;
       }   
     }
