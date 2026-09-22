@@ -346,7 +346,7 @@ class Grid{
       this.removerTravelDistance += r.getTravelDistance();
     }
     this.totalTravelDistance = this.builderTravelDistance + this.removerTravelDistance;
-    this.meanTravelDistance = float(this.builderTravelDistance + this.removerTravelDistance)/float(this.totalRemovers + this.totalBuilders);
+    this.meanTravelDistance = float(this.builderTravelDistance)/float(this.totalBuilders);
     
   }
 
