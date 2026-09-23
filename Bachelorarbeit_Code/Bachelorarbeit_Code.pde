@@ -17,7 +17,13 @@ int currentGrid;
 */
 void setup(){
   seed = int(random(1000000));
+  //seed = 749122; // uncomment for tested remover-agent condition random seed
+  //seed = 939802; // uncomment for tested neutral-agent condition random seed
+  //seed = 302012; // uncomment for usage parameter pretrial random seed
+  //seed = 868047; // uncomment for usage score limit pretrial random seed
+  //seed = 870345; // uncomment for structure size limit pretrial random seed
   randomSeed(seed);
+
   fullScreen();
   colorMode(HSB);
   pixelDensity(1);
