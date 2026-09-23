@@ -21,7 +21,7 @@ void setup(){
   //seed = 939802; // uncomment for tested neutral-agent condition random seed
   //seed = 302012; // uncomment for usage parameter pretrial random seed
   //seed = 868047; // uncomment for usage score limit pretrial random seed
-  //seed = 870345; // uncomment for structure size limit pretrial random seed
+  //seed = 870345; // uncomment for structure size limit pretrial random seed ALSo: remove 0.49 from remover-agent spawn chances
   randomSeed(seed);
 
   fullScreen();
